@@ -30,27 +30,17 @@ public class Nota_VESTIBULAR {
         media =  (portugues + matematica + conheGerais)/3;
         
         
-        if(media>=7 && portugues >=5 && matematica >=5 && conheGerais >=5);{
+        if(media>=7 && portugues >=5 && matematica >=5 && conheGerais >=5)
+        {
           
-        System.out.println("o aluno"+nome+"foi aprovado");}
+        System.out.println("o aluno"+nome+"foi aprovado")}
         
-      else   if(!(media>=7 && portugues >=5 && matematica >=5 && conheGerais >=5));{
+        else  {
           
         System.out.println("o aluno"+nome+"nao foi aprovado");
      
-        System.out.println();
+       
    
     }
              
-}         
-           
-                
-                
-                
-                
-                
-                
-        
-    
-    
-}
+    }
